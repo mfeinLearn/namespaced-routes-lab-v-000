@@ -5,9 +5,9 @@ Rails.application.routes.draw do
   end
   resources :artists
   resources :songs
-  
+
   resources :artists do
-    resources :songs, only: [:index, :show, :new, :edit]
+    resources :songs, only: [:index, :show]
   end
 end
 
