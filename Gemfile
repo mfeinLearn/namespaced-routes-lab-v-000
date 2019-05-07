@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rb-readline'
 gem 'rails'
 gem 'listen'
 gem 'sqlite3', '~>1.3.6'
